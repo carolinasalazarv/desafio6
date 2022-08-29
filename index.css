@@ -163,32 +163,6 @@ h1{
 
 }
 
-@media only screen and (max-width:600px){
-
-    #grillauno{
-        background-color: rgb(240, 210, 215);
-        height: 1900px;
-        grid-template-columns: 90%;
-        grid-template-rows: 200px 200px 200px 200px 200px 200px;
-        grid-template-areas:    "foto1"
-                                "foto2"
-                                "foto3"
-                                "foto4"
-                                "foto5"
-                                "foto6";
-        align-content: space-around;
-        justify-content: center;
-        justify-items: center;
-    }
-    
-    .menu{
-        height: 300px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
-
 #img_grillauno{
     width: 300px;
     align-items: center;
@@ -262,7 +236,30 @@ p{
 }
 
 
-
+@media only screen and (max-width:600px){
+}
+    #grillauno{
+        background-color: rgb(240, 210, 215);
+        height: 1900px;
+        grid-template-columns: 90%;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px;
+        grid-template-areas:    "foto1"
+                                "foto2"
+                                "foto3"
+                                "foto4"
+                                "foto5"
+                                "foto6";
+        align-content: space-around;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .menu{
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
 
 @media only screen and (min-width:600px){
@@ -280,12 +277,6 @@ p{
         justify-items: center;
        
 
-    }
-    .menu{
-        height: 150px;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
     }
 
 
@@ -314,7 +305,5 @@ p{
     }
 
 }
-
-
 
 
